@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="utf-8">
+	<title>Sobre Nós</title>	
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	
+
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+    	.col-md-4 {
+    		text-align: center;
+    		padding: 15px;
+    		font-size: 20px;
+    		color: white;
+    	}
+    	h1 {
+    		font-weight: 0;
+    		padding: 150px;
+    		
+    	}
+    	.ceo {
+			background-color: #f15d54;
+			width: 100%;
+			position: relative;
+			background-position: center center;
+    </style>
+
+</head>
+<body>
+	<header>
+		<input type="checkbox" id="btn-menu">
+		<label for="btn-menu">&#9776;</label>
+		<nav class="menu">		
+			<ul>
+				<li><a href="../Index.html">Home</a></li>		
+				<li><a href="projetos.html">Projetos</a></li>
+				<li><a href="sobrenos.html">Sobre Nós</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<div class="container">
+		<h1>  Messier 58 é uma galáxia espiral localizada na constelação de Virgo. Foi descoberta por Charles Messier em 1779.
+			<br>Nós da Equipe M58 abraçamos essa visão de galáxia, criação e constante evolução. E baseado nessa ideia, fazemos o máximo para levar o melhor conteúdo para o usuario final. VOCÊ!! </h1>
+			</div>
+	</section>
+	<div class="ceo">	
+		<div class="container">
+			<div class="row">
+	  			<div class="col-md-4">
+	  				<img src="../imagens/perfil.jpg" alt="..." width="140" height="140" class="img-circle">
+	  					<h3>Felipe Albuquerque</h3>
+						<p>CEO da M58, estudante de TADS e babão da Casa Stark</p>
+						<a href="../portifolio/Index.html" class="btn btn-default">ver mais</a>
+	  			</div>
+	  			<div class="col-md-4"></div>
+
+	  			<div class="col-md-4"></div>
+			</div>
+		</div>
+	</div>		
+	<footer>Estudio M58 © </footer>
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+	$(function(){
+
+		$(window).scroll(function(){
+			var posicao = $(window).scrollTop();
+
+			if( posicao > 400 ) {
+				$('header').addClass('fixo');
+			} else {
+				$('header').removeClass('fixo');
+			}
+
+			console.log(posicao)
+		})
+
+	})
+	</script>
+</body>
+</html>

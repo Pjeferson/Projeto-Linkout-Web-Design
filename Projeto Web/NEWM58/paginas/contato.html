@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="utf-8">
+	<title>Contato</title>	
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	
+
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+    	form {
+    		padding: 170px;
+    	}
+    	form .form-control {
+    		padding: 20px;
+    	}
+    	form .btn-default {
+    		margin: 20px;
+    		position: relative;
+    		left: 80%;
+    	}
+    </style>
+
+</head>
+<body>
+	<header>
+		<input type="checkbox" id="btn-menu">
+		<label for="btn-menu">&#9776;</label>
+		<nav class="menu">		
+			<ul>
+				<li><a href="../Index.html">Home</a></li>		
+				<li><a href="projetos.html">Projetos</a></li>
+				<li><a href="sobrenos.html">Sobre Nós</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		<div class="container">
+			<form>
+				<input type="text" class="form-control" placeholder="Escreva Seu Nome"><br>
+				<input type="text" class="form-control" placeholder="Assunto"><br>
+				<textarea class="form-control" rows="3" placeholder="Mande Sua Mensagem"></textarea>
+					<button type="button" class="btn btn-default">Enviar</button>
+			</form>
+		</div>	
+	</section>
+		
+	<footer>Estudio M58 © </footer>
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+	$(function(){
+
+		$(window).scroll(function(){
+			var posicao = $(window).scrollTop();
+
+			if( posicao > 400 ) {
+				$('header').addClass('fixo');
+			} else {
+				$('header').removeClass('fixo');
+			}
+
+			console.log(posicao)
+		})
+
+	})
+	</script>
+</body>
+</html>

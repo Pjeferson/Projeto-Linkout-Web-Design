@@ -1,0 +1,17 @@
+body {padding-top: 75px; background-image: url("imagens/background.png"); background-repeat: y;}
+.container {background: #ffffff; box-shadow: 3px 3px 10px #888888;}
+.navbar-fixed-top { background: #f26037; box-shadow: 3px 2px 10px #888888;}
+ul.nav li.active a { background: #ce4b27;}
+ul.nav li a:hover { background: #ce4b27;}
+a.navbar-brand:hover {background: #ce4b27;}
+ul.nav a {color: #191919; font-size: 18px;}
+a.navbar-brand {color: #191919; font-size: 20px;}
+.botao {background: #191919;}
+.centered {margin: 0 auto !important; float: none !important;}
+.row {yborder: 1px solid;}
+label {font-weight: 100;}
+div.central {margin-top: 25px;}
+.imagemsomb {box-shadow: 3px 3px 10px #888888;}
+.main {padding-top: 25px;}
+article h1 {margin-bottom: 50px;}
+p {font-size: 17px;}

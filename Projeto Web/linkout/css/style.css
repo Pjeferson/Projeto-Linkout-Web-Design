@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#barra{
+	background: #192466;
+	height: 20px;
+}
+#slider{
+	height: 800px;
+	background: #dd4400;
+}
+#contato{
+	height: 700px;
+	background: #192466;
+}
+#topo{
+	height: 100px;
+	margin-top: 20px;
+}
+#logo{
+	height: 80px;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-left: 38%;
+}
+.icone{
+	margin-left: 20px;
+	color: #192466;
+}
+.icone:hover{
+	margin-left: 20px;
+	color: #dd4400;
+}
+.links{
+	margin-left: 40%;
+	padding-top: 50px;
+
+}
+.item{
+	display: block;
+	float: none;
+
+}
+@media screen and (max-width: 480px) {
+	.links{
+		margin-left: 0%;
+	}
+}
